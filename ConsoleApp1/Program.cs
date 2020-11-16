@@ -16,8 +16,8 @@ namespace ConnectToDBApp
         public static string DatabaseName = "maindb";
         public static string CollectionName = "employee";
         static DocumentClient dc;
-        static string endpoint = "https://azarnewcosmos.documents.azure.com:443/";
-        static string key = "29RzeePywSPJjs2yYp1VXbiLX2DtSKgnm0EXOeoV3hV5T7UIBBkZQ0FViNXZipP8AI2gkM2eSp4xa04OT1SSog==";
+        static string endpoint = "yes";
+        static string key = "<yes>";
         
 
         static void Main(string[] args)
