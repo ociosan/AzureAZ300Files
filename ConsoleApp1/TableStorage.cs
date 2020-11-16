@@ -17,10 +17,10 @@ namespace ConnectToDBApp
             tableClient = storageAccount.CreateCloudTableClient();
             employees = tableClient.GetTableReference("Employees");
 
-            InsertOp("john", "doe");
-            InsertOp("tony", "soprano");
-            InsertOp("richard", "smith");
-            QueryOp();
+            InsertOp("aldo", "perez");
+            InsertOp("jessica", "perez");
+            InsertOp("jorge", "perez");
+            //QueryOp();
 
             Console.WriteLine("\n\n");
             Console.WriteLine("Press any key to end");
